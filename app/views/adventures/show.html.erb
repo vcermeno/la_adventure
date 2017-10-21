@@ -6,8 +6,11 @@
   </div>
 
       <div class="col-md-3">
-    <p><b>Name: </b><%= @adventure.name %></p>
-    <p><b>Description: </b><%= @adventure.description %></p>
+        <p><b>Name: </b><%= @adventure.name %></p>
+        <p><b>Description: </b><%= @adventure.description %></p>
+       + <p><b>Address: </b><%= @adventure.address %></p>
+        + <p><b>Latitude: </b><%= @adventure.latitude %></p>
+        + <p><b>Longitude: </b><%= @adventure.longitude %></p>
     <p>
       <%= link_to 'Edit', edit_adventure_path(@adventure) %> |
       <%= link_to 'Destroy', @adventure, data: { confirm: 'Are you sure?' }, method: :delete %> |
