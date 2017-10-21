@@ -26,8 +26,18 @@
    border-bottom: 1px solid #DDD;
  }
 
+ background{
+   color: pink;
+ }
+
  footer {
    margin-top: 100px;
    text-align: center;
    color: #999;
+ }
+
+ #adventure_button{
+    color: black;
+
+
  }
